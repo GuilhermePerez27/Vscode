@@ -1,20 +1,19 @@
-algoritmo "de 1 a 100"
-// Disciplina  :  [Linguagem e Lógica de Programação]
-// Professor   : [Nome do Professor]
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : DATA_ATUAL/MES_ATUAL/ANO_ATUAL
+algoritmo "Soma de números de 1 a 100"
+
 var
 
-n, i:inteiro
+Sn, i:inteiro
 
 inicio
-escreva("Segue abaixo todas as somas de 1 a 100: ")
-n:=0
+
+escreval ("Aqui está a soma dos números de 1 a 100")
 i:=1
-enquanto (n<=100) faca
-    escreval (n)
-n:=n+i
+Sn:=0
+enquanto i<=100 faca
+    Sn:= Sn + i
+    i:= i + 1
 fimenquanto
+escreva("A soma dos 100 primeiros números inteiros é equivalente à: ", Sn)
+
 
 fimalgoritmo
